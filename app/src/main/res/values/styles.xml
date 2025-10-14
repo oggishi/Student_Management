@@ -1,0 +1,17 @@
+<resources>
+
+    <!-- Base application theme -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:shape">rectangle</item>
+
+    </style>
+    <style name="roundedImage">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">16dp</item>
+    </style>
+<eat-comment >
+    <attr format="reference" name="selectableItemBackground"/>
+</eat-comment>
+</resources>

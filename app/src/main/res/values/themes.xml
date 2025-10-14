@@ -1,0 +1,8 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Base.Theme.StudentManagement" parent="Theme.Material3.DayNight.NoActionBar">
+
+        <item name="colorError">#F44336</item>
+    </style>
+
+    <style name="Theme.StudentManagement" parent="Base.Theme.StudentManagement" />
+</resources>

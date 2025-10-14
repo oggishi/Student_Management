@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menu_add_new"
+        android:title="Thêm"
+        app:showAsAction="always"
+        android:icon="@drawable/add"
+        android:tooltipText="Thêm chứng chỉ mới" />
+
+    <item
+        android:id="@+id/menu_update"
+        android:title="Cập nhật"
+        app:showAsAction="always"
+        android:icon="@drawable/update"
+        android:tooltipText="Cập nhật thông tin chứng chỉ" />
+
+    <item
+        android:id="@+id/menu_delete"
+        android:title="Xóa"
+        app:showAsAction="always"
+        android:icon="@drawable/delete"
+        android:tooltipText="Xóa chứng chỉ" />
+    <item
+        android:id="@+id/menu_history"
+        android:title="Lịch sử đăng nhập"
+        app:showAsAction="always"
+        android:icon="@drawable/history"
+        android:tooltipText="Lịch sử đăng nhập" />
+
+</menu>

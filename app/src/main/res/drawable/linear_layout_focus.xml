@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Màu nền khi LinearLayout được nhấn (hoặc chạm vào) -->
+    <item android:drawable="@color/blue" android:state_pressed="true"/>
+    <!-- Màu nền khi LinearLayout được focus (khi trỏ chuột hoặc chọn bằng bàn phím) -->
+    <item android:drawable="@color/blue" android:state_focused="true"/>
+    <!-- Màu nền mặc định khi không tương tác -->
+    <item android:drawable="@android:color/transparent"/>
+</selector>

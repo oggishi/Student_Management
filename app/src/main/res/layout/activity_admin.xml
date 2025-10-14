@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdminActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints">
+
+        <ImageButton
+            android:id="@+id/btnExit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:paddingLeft="20dp"
+            android:paddingTop="10dp"
+            android:src="@drawable/x35"
+            tools:ignore="MissingConstraints" />
+    </LinearLayout>
+
+    <!-- ScrollView được thêm vào để bao bọc nội dung có thể cuộn -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintTop_toBottomOf="@id/linearLayout2"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingStart="10dp">
+
+            <TextView
+                android:layout_marginBottom="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:text="VUI LÒNG CHO DỮ LIỆU QUẢN LÝ"
+                android:textColor="#03A9F4"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="350dp"
+                android:layout_height="200dp"
+                android:layout_margin="10dp"
+
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imageViewqluser"
+                    android:layout_width="200dp"
+                    android:layout_height="150dp"
+                    android:src="@drawable/ql_user" />
+
+                <TextView
+                    android:id="@+id/txtqluser"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:text="Quản lý tài khoản"
+                    android:textColor="@android:color/black"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="350dp"
+                android:layout_height="200dp"
+                android:layout_margin="10dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imageViewqlstudent"
+                    android:layout_width="200dp"
+                    android:layout_height="150dp"
+                    android:src="@drawable/ql_sv" />
+
+                <TextView
+                    android:id="@+id/txtqlsv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:text="Quản lý sinh viên"
+                    android:textColor="@android:color/black"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="350dp"
+                android:layout_height="200dp"
+                android:layout_margin="10dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imageViewqltinchi"
+                    android:layout_width="200dp"
+                    android:layout_height="150dp"
+                    android:contentDescription="Icon Đăng Nhập"
+                    android:src="@drawable/ql_tinchi" />
+
+                <TextView
+                    android:id="@+id/txtqltinchi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:text="Quản lý tín chỉ"
+                    android:textColor="@android:color/black"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="350dp"
+                android:layout_height="200dp"
+                android:layout_margin="10dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imageViewprofile"
+                    android:layout_width="200dp"
+                    android:layout_height="150dp"
+                    android:contentDescription="Thông tin tài khoản"
+                    android:src="@drawable/profile" />
+
+                <TextView
+                    android:id="@+id/txtprofile"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:text="Thông tin cá nhân"
+                    android:textColor="@android:color/black"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
