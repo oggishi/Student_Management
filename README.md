@@ -1,21 +1,3 @@
-## Tài khoản admin :
-Email:tranlop72@gmail.com
-
-password:12345
-
-## Tài khoản manager 
-Email:manager@gmail.com
-
-password:12345
-
-## Tài khoản employee
-Email:employee@gmail.com
-
-password:12345
-
-Đối với tài khoản **manager** và **employee** sử dụng email giả nên sẽ không gửi được email khi sử dụng tính năng quên mật khẩu
-
-
 # Functions & Tasks — Student_Management
 
 This document describes the core functions (features) of the Student_Management system and a prioritized set of implementation tasks (backlog) to deliver them. Use this to drive implementation, create issues, and track progress.
@@ -371,4 +353,20 @@ P2 — Enhancements
 - Do you want background jobs via a scheduler (Quartz / Spring Scheduler) or external worker?
 - Preferred DB (H2 for dev / Postgres / MySQL)
 - Any specific export format or storage target (local disk / S3 / Google Cloud Storage)?
+## Tài khoản admin :
+Email:tranlop72@gmail.com
+
+password:12345
+
+## Tài khoản manager 
+Email:manager@gmail.com
+
+password:12345
+
+## Tài khoản employee
+Email:employee@gmail.com
+
+password:12345
+
+Đối với tài khoản **manager** và **employee** sử dụng email giả nên sẽ không gửi được email khi sử dụng tính năng quên mật khẩu
 
